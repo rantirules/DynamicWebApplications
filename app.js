@@ -9,7 +9,7 @@ app.set('appData',dataFile);
 app.set('view engine','ejs');
 app.set('views','app/views');
 
-app.locals.siteTitle = 'CSgeeks';
+app.locals.siteTitle = 'website';
 app.locals.allFriends = dataFile.friends;
 
 app.use(express.static('app/public'));
